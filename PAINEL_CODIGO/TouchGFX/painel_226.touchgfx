@@ -5,18 +5,11 @@
         "Name": "Screen1",
         "Components": [
           {
-            "Type": "Slider",
-            "Name": "slider1",
-            "Width": 1100,
+            "Type": "Image",
+            "Name": "image4",
+            "Width": 800,
             "Height": 480,
-            "IsHorizontalSlider": true,
-            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_medium.png",
-            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.png",
-            "Indicator": "__generated\\clay_theme_images_backgrounds_800x480_gradient_light.png",
-            "BackgroundX": 16,
-            "BackgroundY": 11,
-            "IndicatorMax": 300,
-            "ValueMax": 100
+            "RelativeFilename": "capa.png"
           },
           {
             "Type": "TextArea",
@@ -27,13 +20,18 @@
             "Height": 48,
             "TextId": "__SingleUse_68HX",
             "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
             "AutoSize": true
           },
           {
             "Type": "Image",
             "Name": "image1",
-            "X": 124,
-            "Y": 240,
+            "X": 130,
+            "Y": 300,
             "Width": 120,
             "Height": 120,
             "RelativeFilename": "bubassaro.png"
@@ -41,8 +39,8 @@
           {
             "Type": "Image",
             "Name": "image2",
-            "X": 347,
-            "Y": 240,
+            "X": 353,
+            "Y": 300,
             "Width": 120,
             "Height": 120,
             "RelativeFilename": "squirtle.png"
@@ -50,8 +48,8 @@
           {
             "Type": "Image",
             "Name": "image3",
-            "X": 556,
-            "Y": 240,
+            "X": 596,
+            "Y": 300,
             "Width": 120,
             "Height": 120,
             "RelativeFilename": "chamand.png"
