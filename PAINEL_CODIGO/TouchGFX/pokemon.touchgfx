@@ -1,0 +1,512 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Slider",
+            "Name": "slider1",
+            "Width": 1100,
+            "Height": 480,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_medium.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.png",
+            "Indicator": "__generated\\clay_theme_images_backgrounds_800x480_gradient_light.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 300,
+            "ValueMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 184,
+            "Y": 91,
+            "Width": 432,
+            "Height": 48,
+            "TextId": "__SingleUse_68HX",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 124,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "bubassaro.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 347,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "squirtle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 556,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "chamand.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "telaumparatela2",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "telaumparatela3",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "telaumparatela6",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen6"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Slider",
+            "Name": "slider2",
+            "Width": 1100,
+            "Height": 480,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_medium.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.png",
+            "Indicator": "__generated\\clay_theme_images_backgrounds_800x480_gradient_light.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 300,
+            "ValueMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 184,
+            "Y": 91,
+            "Width": 432,
+            "Height": 48,
+            "TextId": "__SingleUse_DMK7",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 330,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "bubassaro.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 124,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "squirtle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 556,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "chamand.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "teladoisparatelaum",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "teladoisparatelatres",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "teladoisparatelacinco",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen5"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Slider",
+            "Name": "slider1",
+            "Width": 1100,
+            "Height": 480,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_medium.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_medium.png",
+            "Indicator": "__generated\\clay_theme_images_backgrounds_800x480_gradient_light.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 300,
+            "ValueMax": 100
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 184,
+            "Y": 91,
+            "Width": 432,
+            "Height": 48,
+            "TextId": "__SingleUse_4VW6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 124,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "bubassaro.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "X": 556,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "squirtle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image3",
+            "X": 350,
+            "Y": 240,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "chamand.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "telatresparatelaum",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "telatresparateladois",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "telatresparatelaquatro",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen4"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen4",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 1024,
+            "Height": 600,
+            "RelativeFilename": "__generated\\clay_theme_images_backgrounds_1024x600_puzzle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 340,
+            "Y": 95,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "chamand.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 145,
+            "Y": 276,
+            "Width": 511,
+            "Height": 48,
+            "TextId": "__SingleUse_I6BA",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 276,
+            "Y": 332,
+            "Width": 248,
+            "Height": 48,
+            "TextId": "__SingleUse_VLMS",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen5",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 1024,
+            "Height": 600,
+            "RelativeFilename": "__generated\\clay_theme_images_backgrounds_1024x600_puzzle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 340,
+            "Y": 95,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "bubassaro.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 145,
+            "Y": 276,
+            "Width": 511,
+            "Height": 48,
+            "TextId": "__SingleUse_YBKR",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 301,
+            "Y": 332,
+            "Width": 199,
+            "Height": 48,
+            "TextId": "__SingleUse_GKM1",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen6",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 1024,
+            "Height": 600,
+            "RelativeFilename": "__generated\\clay_theme_images_backgrounds_1024x600_puzzle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 340,
+            "Y": 95,
+            "Width": 120,
+            "Height": 120,
+            "RelativeFilename": "squirtle.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 145,
+            "Y": 276,
+            "Width": 511,
+            "Height": 48,
+            "TextId": "__SingleUse_ZY78",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 322,
+            "Y": 330,
+            "Width": 156,
+            "Height": 48,
+            "TextId": "__SingleUse_9BR7",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "pokemon",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Key": 1,
+        "Name": "USER_BUTTON"
+      }
+    ],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F9/5G9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../STM32U5G9J-DK2.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "GPU2DVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.26.0",
+  "CreatedBy": "4.26.0"
+}
